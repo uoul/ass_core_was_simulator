@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-15" standalone="yes"?>
+<pdu>
+    <order-list count="2">
+        <order index="1">
+            <key>0x07abe41b</key>
+            <origin tid="0300012">Linz-Stadt</origin>
+            <receive-tad>2008-11-06 13:21:01</receive-tad>
+            <operation-id>BWSt40001 </operation-id>
+            <level>1</level>
+            <name>Max Mustermann</name>
+            <operation-name>BRAND BAUM-, FLUR-, BÖSCHUNG</operation-name>
+            <caller>012345</caller>
+            <location>Musterstraße 42</location>
+            <info>HILFE!!!</info>
+            <program>Feuer</program>
+            <status>Ausgerückt</status>
+            <watch-out-tad>2008-11-06 13:46:44</watch-out-tad>
+            <finished-tad></finished-tad>
+            <destination-list count="2">
+                <destination index="1" id="40117">Test 1</destination>
+                <destination index="2" id="40120">Test 2</destination>
+            </destination-list>
+            <paging-destination-list count="1">
+                <paging-destination index="1" id="40122">Test3</paging-destination>
+            </paging-destination-list>
+        </order>
+        <order index="2">
+            <key>0x07abe41c</key>
+            <origin tid="0300012">Linz-Stadt</origin>
+            <receive-tad>2008-11-06 13:48:41</receive-tad>
+            <operation-id>BWSt40002 </operation-id>
+            <level>1</level>
+            <name>Hasso</name>
+            <operation-name>TE TIERRETTUNG</operation-name>
+            <caller>0123456789</caller>
+            <location>0000 Musterhausen, Musterweg 1</location>
+            <info>Tiger im Tank</info>
+            <program>Feuer</program>
+            <status>Alarmiert</status>
+            <watch-out-tad></watch-out-tad>
+            <finished-tad></finished-tad>
+            <destination-list count="1">
+                <destination index="1" id="40117">Test 1</destination>
+            </destination-list>
+        </order>
+    </order-list>
+</pdu>
