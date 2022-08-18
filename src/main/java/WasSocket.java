@@ -133,7 +133,7 @@ public class WasSocket {
                 while ((line = in.readLine()) != null) {
                     System.out.println("Server received: " + line);
                     Random random = new Random();
-                    out.println(responses.get(random.nextInt(0, responses.size() - 1)));
+                    out.println(responses.get(random.nextInt(0, responses.size())));
                 }
             }
         }
